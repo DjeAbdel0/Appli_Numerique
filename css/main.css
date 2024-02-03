@@ -1,1 +1,28 @@
-.bleu-pale { background-color: #ADD7F6; }
+* {
+    font-family: Oxygen;
+}
+
+:root {
+    --bleu-ciel: #ADD7F6;
+    --bleu-pale: #87BFFF;
+    --bleu: #3F8EFC;
+    --bleu-marin: #2667FF;
+    --bleu-fonce: #3B28CC;
+    --noire: #000000;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--noire);
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--noire);
+}
+
+/*----- Styles Généraux -----*/
+
+/*----- Section Hero -----*/
