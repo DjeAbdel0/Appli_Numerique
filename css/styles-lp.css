@@ -1,3 +1,29 @@
 /*----- Styles Généraux -----*/
 
 /*----- Section Hero -----*/
+.navbar {
+    background-color: #2667FF;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.section:nth-child(odd) {
+    background-color: red;
+}
+img{
+    width: 200px;
+}
+
+footer{
+    background-color: green;
+}
