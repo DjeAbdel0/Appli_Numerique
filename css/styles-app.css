@@ -1,3 +1,15 @@
 /*----- Styles Généraux -----*/
+*{
+    color: black;
+}
 
+button {
+    background-color: black;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+    background-color: red;
+}
 /*----- Section Hero -----*/
