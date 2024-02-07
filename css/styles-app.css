@@ -1,6 +1,10 @@
 /*----- Styles Généraux -----*/
 *{
-    color: black;
+    color: var(--blanc);
+}
+
+body {
+    background-color: var(--gris-bg);
 }
 
 button {
