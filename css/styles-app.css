@@ -8,6 +8,11 @@ button {
     color: black;
 }
 
+.logo {
+    height: 60px;
+    width: 55px;
+}
+
 .navbar {
     width: 100%;
     background-color: red;
