@@ -49,3 +49,7 @@ h1 {
   box-shadow: 4px 4px 8px #1317df, -4px -4px 8px #1d4adf;
   border-radius: 6px;
 }
+
+.fonction-text {
+  font-size: 12px;
+}
