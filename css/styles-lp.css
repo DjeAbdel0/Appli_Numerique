@@ -3,9 +3,15 @@
   text-align: center;
 }
 
+body {
+background-color: #f8f8f8;
+}
+
+
+
 /*----- Section Hero -----*/
 .navbar {
-  background-color: #2667ff;
+  background-color: #a7b7f4;
   font-size: 24px;
   display: flex;
   justify-content: space-between;
@@ -22,15 +28,15 @@ img {
 }
 
 footer {
-  background-color: green;
+  background-color: #a7b7f4;
 }
 
 .container {
   margin: 10vh auto;
 }
 
-section:nth-child(odd) .container {
-  background-color: #b9c4eb;
+section:nth-child(even) .container {
+  background-color: #a7b7f4;
 }
 
 #hero #description {
