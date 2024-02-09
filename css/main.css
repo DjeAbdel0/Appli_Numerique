@@ -1,28 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
 
 * {
-    font-family: "Almarai";
+  font-family: "Almarai";
 }
 
 :root {
-    --bleu-fonce: #3B28CC;
-    --bleu: #2667FF;
-    --gris-bg: #1F1F1F;
-    --gris-fonce: #292929;
-    --noir-gris: #141414;
-    --blanc: #ffffff;
+  --bleu-fonce: #3b28cc;
+  --bleu: #2667ff;
+  --gris-bg: #1f1f1f;
+  --gris-fonce: #292929;
+  --noir-gris: #141414;
+  --blanc: #ffffff;
+  --blanc-bg: #f8f8f8;
+  --bleu-ft-nav: #a7b7f4;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 900;
-    color: var(--noire);
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--noire);
 }
 
 h2 {
-    font-size: 34px;
-    font-weight: 700;
-    color: var(--noire);
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--noire);
 }
 
 /*----- Styles Généraux -----*/
