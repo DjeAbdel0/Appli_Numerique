@@ -1,6 +1,6 @@
 /*----- Styles Généraux -----*/
 *{
-    color: var(--blanc);
+    color: var(--noir);
 }
 
 body {
@@ -18,20 +18,25 @@ body {
     border-radius: 50%;
 }
 
+.btn {
+    border-color: var(--bleu-fonce);
+    margin-right: 20px;
+}
+
 .navbar {
     width: 100%;
-    background-color: red;
+    background-color: var(--bleu);
 }
 /*----- Section Hero -----*/
 
 footer {
-    background-color: blueviolet;
+    background-color: var(--bleu-r);
 }
 
 .logo-tim{
-    background-color: blanchedalmond;
     height: 70px;
     width: 250px;
+    background-color: aqua;
 }
 
 .p-1rem {
@@ -40,10 +45,6 @@ footer {
 
 .mt-1rem {
     margin-top: 1rem;
-}
-
-p {
-    background-color: blue;
 }
 
 .search {
@@ -66,12 +67,11 @@ p {
     list-style: none;
 }
 
-.btn {
-    border-color: var(--bleu-fonce);
-    margin-right: 20px;
-}
-
 .bi-search {
     color: var(--noir-gris);
     font-size: 20px;
+}
+
+p {
+    background-color: aquamarine;
 }
