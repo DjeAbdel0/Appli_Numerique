@@ -36,7 +36,6 @@ footer {
 .logo-tim{
     height: 70px;
     width: 250px;
-    background-color: aqua;
 }
 
 .p-1rem {
@@ -70,8 +69,4 @@ footer {
 .bi-search {
     color: var(--noir-gris);
     font-size: 20px;
-}
-
-p {
-    background-color: aquamarine;
 }
