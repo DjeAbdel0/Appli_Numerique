@@ -4,12 +4,7 @@
 }
 
 body {
-    background-color: var(--gris-bg);
-}
-
-button {
-    background-color: black;
-    color: black;
+    background-color: var(--blanc);
 }
 
 .logo {
@@ -28,3 +23,55 @@ button {
     background-color: red;
 }
 /*----- Section Hero -----*/
+
+footer {
+    background-color: blueviolet;
+}
+
+.logo-tim{
+    background-color: blanchedalmond;
+    height: 70px;
+    width: 250px;
+}
+
+.p-1rem {
+    padding: 1rem;
+}
+
+.mt-1rem {
+    margin-top: 1rem;
+}
+
+p {
+    background-color: blue;
+}
+
+.search {
+    border: 1px solid var(--bleu-fonce);
+    border-radius: 15px;
+    padding-left: 1rem;
+}
+
+.search-input {
+    width: 60vw;
+    margin-left: 10px;
+    border: none;
+}
+
+.sec2 {
+    overflow: hidden;
+}
+
+.list-ul {
+    list-style: none;
+}
+
+.btn {
+    border-color: var(--bleu-fonce);
+    margin-right: 20px;
+}
+
+.bi-search {
+    color: var(--noir-gris);
+    font-size: 20px;
+}

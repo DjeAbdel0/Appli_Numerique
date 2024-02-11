@@ -10,6 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
       rel="stylesheet"
@@ -23,8 +24,8 @@
     <link rel="stylesheet" href="../css/styles-app.css" />
     <script src="./js/script.js"></script>
   </head>
-
   <body>
+    <!--header-->
     <header>
       <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container">
@@ -59,35 +60,6 @@
                 <a href="#" class="nav-link">Amis</a>
               </li>
             </ul>
-
-            <li class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                >Nos services</a
-              >
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="#" class="dropdown-item">Service1</a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item">Service2</a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item">Service3</a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item">Service4</a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item">Service5</a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown-item">Service6</a>
-                </li>
-              </ul>
-            </li>
           </div>
           <a class="navbar-brand" href="#">
             <img class="logo" src="../assets/artworks/logo_sans_fond_app.png" />
@@ -98,9 +70,64 @@
         </div>
       </nav>
     </header>
-    <footer>
-      <div>
-        
+    <!--main-->
+    <main>
+      <div class="container">
+        <!--section 1-->
+        <section>
+          <div class="row">
+            <nav class="navbar-light mt-1rem">
+              <form class="search form-inline d-flex">
+                <i class="bi bi-search"></i>
+                <input class="search-input form-control" type="search" placeholder="Rechercher une oeuvre, un artiste..." aria-label="Search">
+              </form>
+            </nav>
+          </div>
+        </section>
+        <!--section 2-->
+        <section>
+          <div class="row">
+            <div class="sec2 col-sm-12 mt-1rem">
+              <ul class="list-ul list-group list-group-horizontal">
+                <li>
+                  <button type="button" class="btn btn-1">Toutes</button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-2">Cybersécurité</button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-3">E-commerce</button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-4">IA</button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-4">Autres</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!--footer-->
+    <footer class="fixed-bottom">
+      <div class="flex-wrap p-1rem mt-1rem">
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <p class="text-sm-start text-center">
+              Yavuz-Selim Gucluer
+            </p>
+          </div>
+          <div class="col-12 col-sm-3">
+            <p class="text-sm-start text-center">
+              Abdel Ali Djeral
+            </p>
+          </div>
+          <div class="col-12 col-sm-1 text-sm-end text-center">
+            <img class="logo-tim" src="../assets/artworks/logo_tim.png">
+          </div>
+        </div>
       </div>
     </footer>
   </body>
