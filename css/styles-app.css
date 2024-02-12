@@ -70,3 +70,7 @@ footer {
     color: var(--noir-gris);
     font-size: 20px;
 }
+
+.card-img {
+    height: 20vh;
+}
