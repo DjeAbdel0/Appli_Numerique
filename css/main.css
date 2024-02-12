@@ -4,17 +4,7 @@
   font-family: "Almarai";
 }
 
-:root {
-  --bleu-fonce: #3b28cc;
-  --bleu-r: #0e4eda;
-  --bleu: #2667ff;
-  --gris-bg: #1f1f1f;
-  --gris-fonce: #292929;
-  --noir: #000000;
-  --blanc: #ffffff;
-  --blanc-bg: #f8f8f8;
-  --bleu-ft-nav: #a7b7f4;
-}
+
 
 h1 {
   font-size: 40px;
