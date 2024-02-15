@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./scss/custom_bootstrap.scss">
+    <title>NumériQC</title>
+    <link
+      rel="icon"
+      href="./assets/artworks/favIcon_logo.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <!--Boostrap-->
+    <link rel="stylesheet" href="./scss/custom_bootstrap.scss" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,19 +32,29 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <!--Swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--Css Perso-->
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/styles-lp.css" />
-
+    <!--JS perso-->
     <script src="./js/script.js"></script>
+
   </head>
 
   <body>
     <header>
       <!-- Nav bar -->
-      <nav class="navbar navbar-light navbar-expand-lg fixed-top">
-        <div class="container-hero">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-danger">
+        <div class="container-hero bg-danger">
           <!--Logo-->
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand " href="index.html">
             <img src="./assets/artworks/logo_sans_fond.png" />
           </a>
           <!-- Hamburger button -->
@@ -52,8 +69,8 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <!--Nav liste-->
-          <div id="mainNav" class="collapse navbar-collapse ms-5">
-            <ul class="navbar-nav">
+          <div id="mainNav" class="collapse navbar-collapse ms-5 ">
+            <ul class="navbar-nav bg-danger">
               <li class="nav-item">
                 <a href="#hero" class="nav-link">L'appli</a>
               </li>
@@ -101,18 +118,20 @@
                 Téléchargez maintenant
               </button>
             </div>
-            <div class="text-lg-start col-lg-6 mobile w-50 px-3 mt-3">
-              <iframe
-                src="./app/index.html"
-                width="100%"
-                height="570px"
-              ></iframe>
+            <div class="text-lg-start col-lg-6 mobile w-50 px-3 mt-3 m-auto">
+              <div class="card">
+                <iframe
+                  src="./app/index.html"
+                  width="100%"
+                  height="570px"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!--Section fonctionalites-->
-      <section class="section-features" id="fonctio">
+      <section class="section-features bg-danger" id="fonctio">
         <div class="container">
           <div class="row text-center px-5">
             <h2>Fonctionalités</h2>
@@ -402,15 +421,38 @@
           </div>
         </div>
       </section>
-      <section id="voir" class="section">
-        <h1>En voir plus</h1>
+
+      <section id="voir" class="section bg-danger">
+        <h1>Prévisualisez l'interface de l'appli.</h1>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">
+              <img src="./assets/artworks/swiper_3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/artworks/swiper_4.jpg" alt="" />
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
       </section>
       <section id="infolettre" class="section">
-        <h1>Infolettre</h1>
+        <h1>infolettre</h1>
       </section>
     </main>
+    <!--Footer-->
     <footer>
-      <div class="p-3 mt-1rem col-lg-text-center">
+      <div class="p-3 mt-1rem col-lg-text-center bg-danger">
         <div class="row">
           <p class="text-lg-start col-lg-4 text-center order-sm-1 order-lg-1">
             Abdel Ali Djeral

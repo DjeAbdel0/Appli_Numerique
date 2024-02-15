@@ -4,10 +4,8 @@
 }
 
 body {
-background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
-
-
 
 /*----- Section Hero -----*/
 .navbar {
@@ -35,9 +33,10 @@ footer {
   margin: 10vh auto;
 }
 
-section:nth-child(even) .container {
-  background-color: #a7b7f4;
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 #hero #description {
   font-size: 1.5rem;
@@ -69,4 +68,25 @@ section:nth-child(even) .container {
 
 .row h2 {
   margin-top: 2vh;
+}
+<!--Swiper-->
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
