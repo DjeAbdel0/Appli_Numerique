@@ -419,7 +419,7 @@
           </div>
         </div>
       </section>
-      <!--Section infolettre-->
+      <!--Section FAQ-->
       <section id="faq" class="section bg-danger py-2">
         <div class="container">
           <h1>FAQ - Foire aux questions</h1>
@@ -566,13 +566,13 @@
           </div>
         </div>
       </section>
-      <section id="info" class="section">
-        <div class="container">
-          <h1>Prévisualisez l'interface de l'appli.</h1>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 float-md-right">
+      <!--Section infolettre-->
+      <section id="info" class="section bg-image">
+        <div
+          class="container d-flex justify-content-center align-items-center h-100"
+        >
+          <div class="row text-left">
+            <div class="col-md-6 offset-md-3 text-left bg-white p-3 opacity-75">
               <h1>Infolettre</h1>
               <p>
                 Abonnez-vous à notre infolettre pour recevoir des nouvelles sur
@@ -580,13 +580,55 @@
                 plus de recevoir en primeur les détails des prochaines éditions
                 du festival.
               </p>
-              <button type="button" class="btn btn-outline-danger text-center">
+              <button
+                type="button"
+                class="btn btn-outline-danger btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#fenetreMo"
+              >
                 Je m’abonne
               </button>
             </div>
           </div>
         </div>
       </section>
+       <!--Fenetre modale-->
+      <div class="modal fade" tabindex="-1" id="fenetreMo">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title">Restez informé !</h2>
+              <button
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="X"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <input
+                
+                  type="email"
+                  class="form-control font-family:bootstrap-icons;"
+                  placeholder=" &#xF32F; Votre adresse courriel"
+                />
+               
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">M’inscrire</button>
+              <button
+              type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal"
+                aria-label="Annuler"
+                type="button"
+              >
+                Annuler
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <!--Footer-->
     <footer>
