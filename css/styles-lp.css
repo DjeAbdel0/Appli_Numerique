@@ -90,3 +90,7 @@ footer {
   height: 500px;
   object-fit: cover;
 }
+
+.infolettre h1 {
+  color: green;
+}

@@ -45,7 +45,6 @@
     <link rel="stylesheet" href="./css/styles-lp.css" />
     <!--JS perso-->
     <script src="./js/script.js"></script>
-
   </head>
 
   <body>
@@ -54,7 +53,7 @@
       <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-danger">
         <div class="container-hero bg-danger">
           <!--Logo-->
-          <a class="navbar-brand " href="index.html">
+          <a class="navbar-brand" href="index.html">
             <img src="./assets/artworks/logo_sans_fond.png" />
           </a>
           <!-- Hamburger button -->
@@ -69,7 +68,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <!--Nav liste-->
-          <div id="mainNav" class="collapse navbar-collapse ms-5 ">
+          <div id="mainNav" class="collapse navbar-collapse ms-5">
             <ul class="navbar-nav bg-danger">
               <li class="nav-item">
                 <a href="#hero" class="nav-link">L'appli</a>
@@ -81,11 +80,10 @@
                 <a href="#temoignages" class="nav-link">Temoignages</a>
               </li>
               <li class="nav-item">
-                <a href="#voir" class="nav-link">En voir plus</a>
+                <a href="#faq" class="nav-link">FAQ</a>
               </li>
-
               <li class="nav-item">
-                <a href="#infolettre" class="nav-link">Infolettre</a>
+                <a href="#info" class="nav-link">Infolettres</a>
               </li>
             </ul>
           </div>
@@ -421,113 +419,172 @@
           </div>
         </div>
       </section>
-
-      <section id="voir" class="section bg-danger">
-        <h1>Prévisualisez l'interface de l'appli.</h1>
-        <!-- Slider main container -->
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">
-              <img src="./assets/artworks/swiper_3.jpg" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/artworks/swiper_4.jpg" alt="" />
-            </div>
-          </div>
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
-          <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
-        </div>
-      </section>
-       <!--Section infolettre-->
-      <section id="infolettre" class="section">
+      <!--Section infolettre-->
+      <section id="faq" class="section bg-danger py-2">
         <div class="container">
-          <h1>FAQ - Foire aux question</h1>
+          <h1>FAQ - Foire aux questions</h1>
         </div>
-        <div class="container text-center">
-          <div class="accordion " id="monAccordeon">
-
-            <div class="accordion-item ">
+        <div class="container infolettre">
+          <div class="accordion" id="monAccordeon">
+            <div class="accordion-item">
               <h2 class="accordion-header" id="question1">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                Question 1
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse1"
+                  aria-expanded="true"
+                  aria-controls="collapse1"
+                >
+                  Quelles sont les dates de l'édition 2024?
                 </button>
               </h2>
-          
-              <div id="collapse1" class="accordion-collapse collapse " 
-              aria-labelledby="question1" data-bs-parent="#monAccordeon">
+
+              <div
+                id="collapse1"
+                class="accordion-collapse collapse"
+                aria-labelledby="question1"
+                data-bs-parent="#monAccordeon"
+              >
                 <div class="accordion-body">
-                  Reponse 1
+                  La prochaine édition de la Semaine numériQC se tiendra au 8 au
+                  11 avril 2024, au Terminal – Port de Québec.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="question2">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                Question 2
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse2"
+                  aria-expanded="true"
+                  aria-controls="collapse2"
+                >
+                  Ou aura lieu l'événement?
                 </button>
               </h2>
-          
-              <div id="collapse2" class="accordion-collapse collapse " 
-              aria-labelledby="question1" data-bs-parent="#monAccordeon">
+
+              <div
+                id="collapse2"
+                class="accordion-collapse collapse"
+                aria-labelledby="question1"
+                data-bs-parent="#monAccordeon"
+              >
                 <div class="accordion-body">
-                  Reponse 2
+                  La Semaine numériQC se tiendra au Terminal – Port de Québec,
+                  au coeur du Vieux-Port de la ville de Québec.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="question3">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                Question 3
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse3"
+                  aria-expanded="true"
+                  aria-controls="collapse3"
+                >
+                  Comment dois-je faire pour soumettre une proposition de
+                  conférence?
                 </button>
               </h2>
-          
-              <div id="collapse3" class="accordion-collapse collapse " 
-              aria-labelledby="question1" data-bs-parent="#monAccordeon">
+
+              <div
+                id="collapse3"
+                class="accordion-collapse collapse"
+                aria-labelledby="question1"
+                data-bs-parent="#monAccordeon"
+              >
                 <div class="accordion-body">
-                  Reponse 3
+                  L’appel de candidatures pour les conférences de l’édition 2024
+                  débutera le 18 octobre et se terminera le 1 décembre 2023.
+                  Pour plus de détails, visitez la page de l’appel à conférence.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="question4">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                Question 4
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                  aria-expanded="true"
+                  aria-controls="collapse4"
+                >
+                  Comment devenir partenaire de l'événement?
                 </button>
               </h2>
-          
-              <div id="collapse4" class="accordion-collapse collapse " 
-              aria-labelledby="question1" data-bs-parent="#monAccordeon">
+
+              <div
+                id="collapse4"
+                class="accordion-collapse collapse"
+                aria-labelledby="question1"
+                data-bs-parent="#monAccordeon"
+              >
                 <div class="accordion-body">
-                  Reponse 4
+                  Nous sommes actuellement à la recherche de partenaires pour
+                  notre édition 2024. Vous souhaitez en savoir plus sur les
+                  opportunités qui s’offrent à vous? Écrivez-nous :
+                  info@semainenumeriqc.com.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="question5">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                Question 5
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                  aria-expanded="true"
+                  aria-controls="collapse5"
+                >
+                  Je souhaite deveneir bénévole pour votre événement, comment
+                  puis-je procéder?
                 </button>
               </h2>
-          
-              <div id="collapse5" class="accordion-collapse collapse " 
-              aria-labelledby="question1" data-bs-parent="#monAccordeon">
+
+              <div
+                id="collapse5"
+                class="accordion-collapse collapse"
+                aria-labelledby="question1"
+                data-bs-parent="#monAccordeon"
+              >
                 <div class="accordion-body">
-                  Reponse 5
+                  Notre période d’appel à bénévoles n’est pas encore commencée.
+                  Cependant, vous pouvez tout le temps nous envoyer une
+                  candidature spontanée avec le formulaire de notre page Nous
+                  joindre.
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        
-       
-        
+      </section>
+      <section id="info" class="section">
+        <div class="container">
+          <h1>Prévisualisez l'interface de l'appli.</h1>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 float-md-right">
+              <h1>Infolettre</h1>
+              <p>
+                Abonnez-vous à notre infolettre pour recevoir des nouvelles sur
+                les mises-à-jour et nouvelles fonctionnalités de l’appli, en
+                plus de recevoir en primeur les détails des prochaines éditions
+                du festival.
+              </p>
+              <button type="button" class="btn btn-outline-danger text-center">
+                Je m’abonne
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
