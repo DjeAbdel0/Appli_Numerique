@@ -5,16 +5,17 @@
 
 body {
     background-color: var(--blanc);
+    padding-top: 80px;
 }
 
 .logo {
-    height: 60px;
-    width: 55px;
+    height: 40px;
+    width: 35px;
 }
 
 .pdp {
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
 }
 
@@ -27,16 +28,12 @@ body {
     width: 100%;
     background-color: var(--bleu);
 }
+
+.navbar-toggler {
+    padding:0px 0px 0px 0px;
+    border: none;
+  }
 /*----- Section Hero -----*/
-
-footer {
-    background-color: var(--bleu-r);
-}
-
-.logo-tim{
-    height: 70px;
-    width: 250px;
-}
 
 .p-1rem {
     padding: 1rem;
@@ -47,7 +44,7 @@ footer {
 }
 
 .search {
-    border: 1px solid var(--bleu-fonce);
+    border: 1px solid blue;
     border-radius: 15px;
     padding-left: 1rem;
 }
@@ -73,4 +70,15 @@ footer {
 
 .card-img {
     height: 20vh;
+}
+
+/*----- Footer -----*/
+
+footer {
+    padding: 1rem;
+}
+
+.logo-tim{
+    height: 55px;
+    width: 225px;
 }

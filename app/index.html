@@ -38,8 +38,8 @@
   <body>
     <!--header-->
     <header>
-      <nav class="navbar navbar-light navbar-expand-lg">
-        <div class="container">
+      <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
+        <div class="container-fluid">
           <!-- Hamburger button -->
           <button
             class="navbar-toggler"
@@ -52,6 +52,12 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="../assets/artworks/logo_sans_fond_app.png" />
+          </a>
+          <a class="navbar-brand" href="#">
+            <img class="pdp" src="../assets/artworks/photo_profile.png" />
+          </a>
           <!-- Navigation -->
           <div id="mainNav" class="collapse navbar-collapse">
             <ul class="navbar-nav">
@@ -72,18 +78,12 @@
               </li>
             </ul>
           </div>
-          <a class="navbar-brand" href="#">
-            <img class="logo" src="../assets/artworks/logo_sans_fond_app.png" />
-          </a>
-          <a class="navbar-brand" href="#">
-            <img class="pdp" src="../assets/artworks/photo_profile.png" />
-          </a>
         </div>
       </nav>
     </header>
     <!--main-->
     <main>
-      <div class="container">
+      <div class="container-fluid">
         <!--section 1-->
         <section>
           <div class="row">
@@ -119,58 +119,104 @@
             </div>
           </div>
         </section>
-        <section>
+        <div class="oeuvres-vedette">
           <h2>En vedette</h2>
-          <!--carte 1-->
-          <div class="row">
-            <div class="col-sm-4">
+          <sectio class="row flex-nowrap">
+            <!--carte 1-->
+            <div class="col-6 col-md-3 col-lg-3">
               <a class="card" href="./artwork.html">
-                <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top">
+                <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top card-img">
                 <div class="card-body">
-                  <h3>Titre 1</h3>
-                  <p>Description 1</p>
+                  <h4 class="card-title">Titre 1</h4>
+                  <p class="card-text">Description 1</p>
+                  <div class="justify-content-between d-flex">
+                    <span>
+                      <i class="bi bi-calendar"></i>
+                      <p class="date d-inline">15 janvier 2024</p>
+                    </span>
+                    <span>
+                      <i class="bi bi-clock-fill"></i>
+                      <p class="date d-inline">12h</p>
+                    </span>
+                  </div>
+                  <div class="justify-content-between d-flex">
+                    <img src="" class="img-artiste">
+                    <span>
+                      <p class="info d-inline">Plus d'info</p>
+                      <i class="bi bi-chevron-right"></i>
+                    </span>
+                  </div>
                 </div>
               </a>
             </div>
             <!--carte 2-->
-            <div class="col-sm-4">
+            <div class="col-6 col-md-3 col-lg-3">
               <a class="card" href="./artwork.html">
-                <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top">
+                <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top card-img">
                 <div class="card-body">
-                  <h3>Titre 1</h3>
-                  <p>Description 1</p>
+                  <h4 class="card-title">Titre 2</h4>
+                  <p class="card-text">Description 2</p>
+                  <div class="justify-content-between d-flex">
+                    <span>
+                      <i class="bi bi-calendar"></i>
+                      <p class="date d-inline">15 janvier 2024</p>
+                    </span>
+                    <span>
+                      <i class="bi bi-clock-fill"></i>
+                      <p class="date d-inline">12h</p>
+                    </span>
+                  </div>
+                  <div class="justify-content-between d-flex">
+                    <img src="" class="img-artiste">
+                    <span>
+                      <p class="info d-inline">Plus d'info</p>
+                      <i class="bi bi-chevron-right"></i>
+                    </span>
+                  </div>
                 </div>
               </a>
             </div>
             <!--carte 3-->
-            <div class="col-sm-4">
+            <div class="col-6 col-md-3 col-lg-3">
               <a class="card" href="./artwork.html">
-                <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top">
+                <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top card-img">
                 <div class="card-body">
-                  <h3>Titre 1</h3>
-                  <p>Description 1</p>
+                  <h4 class="card-title">Titre 3</h4>
+                  <p class="card-text">Description 3</p>
+                  <div class="justify-content-between d-flex">
+                    <span>
+                      <i class="bi bi-calendar"></i>
+                      <p class="date d-inline">15 janvier 2024</p>
+                    </span>
+                    <span>
+                      <i class="bi bi-clock-fill"></i>
+                      <p class="date d-inline">12h</p>
+                    </span>
+                  </div>
+                  <div class="justify-content-between d-flex">
+                    <img src="" class="img-artiste">
+                    <span>
+                      <p class="info d-inline">Plus d'info</p>
+                      <i class="bi bi-chevron-right"></i>
+                    </span>
+                  </div>
                 </div>
               </a>
             </div>
-          </div>
         </section>
+        </div>
       </div>
     </main>
     <!--footer-->
-    <footer class="fixed-bottom">
-      <div class="flex-wrap p-1rem mt-1rem bg-dark">
+    <footer class="bg-primary fixed-bottom">
+      <div class="container stick-bottom">
         <div class="row">
-          <div class="col-12 col-sm-7">
+          <div class="col-sm-6">
             <p class="text-sm-start text-center">
-              Yavuz-Selim Gucluer
+              Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. Ui de l’app créé par Yavuz-Selim Gucluer.
             </p>
           </div>
-          <div class="col-12 col-sm-7">
-            <p class="text-sm-start text-center">
-              Abdel Ali Djeral
-            </p>
-          </div>
-          <div class="col-12 col-sm-1 text-sm-end text-center">
+          <div class="col-sm-6 text-sm-end align-self-center text-center">
             <img class="logo-tim" src="../assets/artworks/logo_tim.png">
           </div>
         </div>

@@ -4,16 +4,32 @@
   font-family: "Almarai";
 }
 
-
-
-h1 {
-  font-size: 40px;
-  font-weight: 900;
+h1, .h1 {
+  font-size: 50px;
+  font-weight: 400;
   color: var(--noire);
 }
 
-h2 {
-  font-size: 34px;
+h2, .h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--noire);
+}
+
+h3, .h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--noire);
+}
+
+h4, .h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--noire);
+}
+
+h5, .h5 {
+  font-size: 15px;
   font-weight: 700;
   color: var(--noire);
 }
