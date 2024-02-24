@@ -34,6 +34,14 @@ h5, .h5 {
   color: var(--noire);
 }
 
+:root {
+  --bg-dark: #1F1F1F;
+  --bg-info: #292929;
+  --bg-sucess: #141414;
+  --bg-primary: #2667FF;
+  --bg-secondary: #1E00FF;
+}
+
 /*----- Styles Généraux -----*/
 
 /*----- Section Hero -----*/
