@@ -53,6 +53,7 @@ body {
 .search-input {
     margin-left: 10px;
     border: none;
+    background-color: transparent;
 }
 
 .sec2 {

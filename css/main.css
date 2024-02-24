@@ -35,12 +35,12 @@ h5, .h5 {
 }
 
 :root {
-  --bg-dark: #1F1F1F;
-  --bg-info: #292929;
-  --bg-sucess: #141414;
-  --bg-primary: #2667FF;
-  --bg-secondary: #1E00FF;
-  --bg-light: #ffffff;
+  --bs-dark: #1F1F1F;
+  --bs-info: #292929;
+  --bs-sucess: #141414;
+  --bs-primary: #2667FF;
+  --bs-secondary: #1E00FF;
+  --bs-light: #ffffff;
 }
 
 /*----- Styles Généraux -----*/
