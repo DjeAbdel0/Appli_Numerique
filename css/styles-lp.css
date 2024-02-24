@@ -1,4 +1,12 @@
 /*----- Styles Généraux -----*/
+:root {
+  --bg-dark: #1F1F1F;
+  --bg-info: #292929;
+  --bg-sucess: #141414;
+  --bg-primary: #2667FF;
+  --bg-secondary: #1E00FF;
+  --bg-light: #ffffff;
+}
 * {
   text-align: center;
 }
@@ -63,7 +71,7 @@ footer {
 }
 
 .imgprofile {
-  height: 7vh;
+  height: 12vh;
 }
 
 .row h2 {

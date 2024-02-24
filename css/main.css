@@ -1,39 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
 
-* {
-  font-family: "Almarai";
-}
-
-h1, .h1 {
-  font-size: 50px;
-  font-weight: 400;
-  color: var(--noire);
-}
-
-h2, .h2 {
-  font-size: 45px;
-  font-weight: 700;
-  color: var(--noire);
-}
-
-h3, .h3 {
-  font-size: 35px;
-  font-weight: 700;
-  color: var(--noire);
-}
-
-h4, .h4 {
-  font-size: 25px;
-  font-weight: 700;
-  color: var(--noire);
-}
-
-h5, .h5 {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--noire);
-}
-
 :root {
   --bg-dark: #1F1F1F;
   --bg-info: #292929;
@@ -42,6 +8,41 @@ h5, .h5 {
   --bg-secondary: #1E00FF;
   --bg-light: #ffffff;
 }
+* {
+  font-family: "Almarai";
+}
+
+h1, .h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: var(--bg-dark);
+}
+
+h2, .h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--bg-dark);
+}
+
+h3, .h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--bg-dark);
+}
+
+h4, .h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--bg-dark);
+}
+
+h5, .h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--bg-dark);
+}
+
+
 
 /*----- Styles Généraux -----*/
 
