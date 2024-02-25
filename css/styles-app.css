@@ -158,3 +158,11 @@ footer {
 .footer-desc {
     font-size: 15px;
 }
+
+/*----- Artwork -----*/
+
+.img-artwork {
+    height: 33vh;
+    width: 100%;
+    object-fit: cover;
+}
