@@ -4,7 +4,7 @@
   --bs-dark: #1F1F1F;
   --bs-info: #292929;
   --bs-sucess: #141414;
-  --bs-primary: #2667FF;
+  --bs-primary: #0E46C9;
   --bs-secondary: #1E00FF;
   --bs-light: #ffffff;
 }
@@ -13,31 +13,31 @@
 }
 
 h1, .h1 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 400;
   color: var(--bg-dark);
 }
 
 h2, .h2 {
-  font-size: 45px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--bg-dark);
 }
 
 h3, .h3 {
-  font-size: 35px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--bg-dark);
 }
 
 h4, .h4 {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--bg-dark);
 }
 
 h5, .h5 {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--bg-dark);
 }
