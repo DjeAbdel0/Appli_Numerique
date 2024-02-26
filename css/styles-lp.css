@@ -9,15 +9,23 @@
 }
 * {
   text-align: center;
+  
 }
 
+h2{
+  color: var(--bg-dark);
+}
+.section-features p{
+  color: var(--bg-dark);
+}
 body {
-  background-color: #f8f8f8;
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
 }
 
 /*----- Section Hero -----*/
 .navbar {
-  background-color: #a7b7f4;
+  background-color: var(--bs-primary);
   font-size: 24px;
   display: flex;
   justify-content: space-between;
@@ -29,12 +37,21 @@ body {
   justify-content: space-between;
 }
 
+.btn {
+  border-color: var(--bs-secondary);
+  color: var(--bs-light);
+}
+
+.btn:hover {
+  background-color: var(--bs-secondary);
+}
+
 img {
   width: 90px;
 }
 
 footer {
-  background-color: #a7b7f4;
+  background-color: var(--bs-primary);
 }
 
 .container {
@@ -76,6 +93,7 @@ footer {
 
 .row h2 {
   margin-top: 2vh;
+  
 }
 <!--Swiper-->
 .swiper {
@@ -108,4 +126,32 @@ background-image: url(../assets/artworks/bg_robot.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+}
+
+.texteInfo{
+color: var(--bg-light);
+}
+
+.section:nth-child(even) {
+  background-color: var(--bg-primary);
+}
+
+/*----- Section Modal -----*/
+.modal-content{
+  background-color: var(--bg-info);
+}
+
+.modal-title{
+  color: var(--bg-light);
+}
+
+.form-control{
+  background-color: var(--bg-info);
+  color: var(--bg-light);
+  opacity: 1;
+}
+
+::placeholder{
+  color: red;
+  opacity: 1;
 }
