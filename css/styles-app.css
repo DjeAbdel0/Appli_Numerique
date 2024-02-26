@@ -77,6 +77,11 @@ a {
     background-color: transparent;
 }
 
+.search-input:focus {
+    color: var(--bs-light);
+    background-color: transparent;
+}
+
 .sec2 {
     overflow: hidden;
 }
