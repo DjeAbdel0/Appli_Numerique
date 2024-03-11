@@ -66,9 +66,10 @@ a {
 }
 
 .search-input {
+    background-color: var(--bs-dark);
+    border-radius: 25px;
     margin-left: 10px;
     border: none;
-    background-color: transparent;
     font-size: 13px;
 }
 
@@ -128,8 +129,8 @@ a {
     font-size: 13px;
 }
 
-.date, .info {
-    font-size: 11px;
+.date, .info, .location {
+    font-size: 13px;
 }
 
 .bi-calendar,
@@ -175,7 +176,31 @@ footer {
 /*----- Artwork -----*/
 
 .img-artwork {
+    object-position: top;
     height: 33vh;
     width: 100%;
     object-fit: cover;
+}
+
+.body-artwork{
+    padding-top: 0px;
+}
+
+.btn-reserver {
+    border-color: var(--bs-secondary);
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.accordion-button {
+    background-color: var(--bs-info);
+    color: var(--bs-light);
+}
+
+.accordion-body {
+    background-color: var(--bs-info);
+}
+
+.accordion-item {
+    border-color: var(--bs-secondary);
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Artwork</title>
      <!--Boostrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -35,7 +35,7 @@
     <!--Js perso-->
     <script src="../js/script.js"></script>
   </head>
-  <body>
+  <body class="body-artwork">
     <!--header-->
     <header>
       <nav class="navbar navbar-dark bg-transparent navbar-expand-lg fixed-top">
@@ -47,29 +47,60 @@
     </header>
     <!--main-->
     <main>
-        <div class="container-fluid">
-            <img src="../assets/artworks/img-artwork.webp" class="img-artwork">
-
-            <section>
-                <h1>Futur numérique</h1>
-            </section>
-
-            <section class="justify-content-between d-flex">
-                <span>
-                    <i class="bi bi-geo-alt"></i>
-                    <p>Salle Microsoft</p>
-                </span>
-                <span>
-                    <i class="bi bi-calendar"></i>
-                    <p class="date d-inline">8 avril 2024</p>
-                </span>
-
-                <div id="artiste" class="mb-3 mt-2">
-                    <h1>Ravy Por</h1>
-                </div>
-            </section>
+      <img src="../assets/artworks/img-artwork.webp" class="img-artwork">
+      <section class="artwork">
+        <h1 class="pt-2 ms-2">Futur numérique</h1>
+        <span class="mx-2 me-3">
+          <i class="bi bi-geo-alt"></i>
+          <p class="location d-inline">Salle Microsoft</p>
+        </span>
+        <span>
+          <i class="bi bi-calendar"></i>
+          <p class="date d-inline">8 avril 2024</p>
+        </span>
+        <!--artiste-->
+        <h2 class="mx-2 mt-3 p-2 bg-success card-title">Artiste.s</h2>
+      <div id="artiste" class="card card-autres mb-3 mt-2 mx-2">
+        <img src="../assets/artists/ravy-por.avif" class="card-img-top card-img-autres">
+        <div class="card-body">
+          <h4 class="card-title">Ravy Por</h4>
+          <p class="card-text">Ravy Por est associée et leader en intelligence artificielle et en données chez Deloitte.</p>
+          <button type="button" class="btn">En savoir plus</button>
         </div>
-      
+      </div>
+      <!--a propos-->
+      <h2 class="mx-2 mt-3 p-2 bg-success card-title">À propos de l'oeuvre</h2>
+      <div class="ms-2 mb-2">
+        <p class="mb-1 card-text">Conférence</p>
+        <p class="mb-1 card-text">Lieu : Salle Microsoft</p>
+      </div>
+      <!--accordeon-->
+      <div class="accordion mx-2 mt-4 mb-3" id="accordeonForm">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="enteteForm">
+            <button class="accordion-button py-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseForm" aria-expanded="false" aria-controls="collapseForm">
+            Réservez votre place
+            </button>
+          </h2>
+          <div id="collapseForm" class="accordion-collapse collapse" 
+          aria-labelledby="enteteForm" data-bs-parent="#accordeonForm">
+            <div class="accordion-body">
+              <form action="">
+                <label for="inputEmail" class="text-light mb-1">Courriel</label>
+                <input type="email" class="form-control mb-2 p-1" id="inputEmail" placeholder= "nom@example.com">
+                <label for="inputPrenom" class="text-light mb-1">Prénom</label>
+                <input type="text" class="form-control mb-2 p-1" id="inputPrenom">
+                <label for="inputNom" class="text-light mb-1">Nom</label>
+                <input type="text" class="form-control mb-2 p-1" id="inputNom">
+                <label for="inputDate" class="text-light mb-1">Date</label>
+                <input type="date" class="form-control mb-2 p-1" id="inputDate">
+                <button type="submit" class="btn btn-reserver mt-3">Envoyer</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
     </main>
     <!--footer-->
     <footer>
