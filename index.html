@@ -38,24 +38,19 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!--Css Perso-->
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/styles-lp.css" />
-    <!--JS perso-->
-    <script src="./js/script.js"></script>
   </head>
 
   <body>
     <header>
       <!-- Nav bar -->
-      <nav class="navbar navbar-light navbar-expand-lg fixed-top">
-        <div class="container-hero">
+      <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
           <!--Logo-->
-          <a class="navbar-brand" href="index.html">
-            <img src="./assets/artworks/logo_sans_fond.png" />
-          </a>
-          <!-- Hamburger button -->
+          <a class="navbar-brand" href="#appli"
+            ><img
+              class="img-fluid mb-1"
+              src="./assets/artworks/logo_sans_fond.png" /></a>
+               <!-- Hamburger button -->
           <button
             class="navbar-toggler"
             data-bs-toggle="collapse"
@@ -66,8 +61,8 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!--Nav liste-->
-          <div id="mainNav" class="collapse navbar-collapse ms-5">
+           <!--Nav liste-->
+          <div id="mainNav" class="collapse navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a href="#hero" class="nav-link">L'appli</a>
@@ -84,18 +79,16 @@
               <li class="nav-item">
                 <a href="#info" class="nav-link">Infolettres</a>
               </li>
-              <li class="nav-item">
-                <a href="#voir" class="nav-link">Voir plus</a>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
     <main
       data-bs-spy="scroll"
       data-bs-target="#mainNav"
-      data-bs-root-margin="0px 0px -40%"
+      data-bs-root-margin="0px 0px -10%"
       data-bs-smooth-scroll="true"
       class="scrollspy"
       tabindex="0"
@@ -121,9 +114,8 @@
             <div class="text-lg-start col-lg-6 mobile w-50 px-3 mt-3 m-auto">
               <div class="card">
                 <iframe
+                  class="iframe-container"
                   src="./app/index.html"
-                  width="100%"
-                  height="570px"
                 ></iframe>
               </div>
             </div>
@@ -403,7 +395,7 @@
       <!--Section FAQ-->
       <section id="faq" class="section py-2">
         <div class="container">
-          <h1>FAQ - Foire aux questions</h1>
+          <h2>FAQ - Foire aux questions</h2>
         </div>
         <div class="container infolettre">
           <div class="accordion" id="monAccordeon">
@@ -619,10 +611,18 @@
         <h1>Prévisualisez l'interface de l'appli.</h1>
         <div class="swiper swiper-screenshots">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./assets/artists/profile_picture_ravy.png" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/artists/profile_picture_sandra.png" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/artists/profile_picture_sarah.png" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/artists/profile_picture_sean.png" alt=""></div>
+            <div class="swiper-slide">
+              <img src="./assets/artists/profile_picture_ravy.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/artists/profile_picture_sandra.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/artists/profile_picture_sarah.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/artists/profile_picture_sean.png" alt="" />
+            </div>
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -630,6 +630,12 @@
       </section>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </main>
+
+    <!--Css Perso-->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/styles-lp.css" />
+    <!--JS perso-->
+    <script src="./js/script.js"></script>
     <!--Footer-->
     <footer>
       <div class="p-3 mt-1rem col-lg-text-center">
@@ -637,9 +643,9 @@
           <p class="text-lg-start col-lg-4 text-center order-sm-1 order-lg-1">
             Abdel Ali Djeral
           </p>
-          <p class="text-lg-end col-lg-8 text-center order-sm-3 order-lg-2">
-            https://github.com/DjeAbdel0/abdel-yavuz-app-festival-art
-          </p>
+          <div class="text-lg-end col-lg-8 text-center order-sm-3 order-lg-2">
+            <a href="https://github.com/DjeAbdel0/abdel-yavuz-app-festival-art">https://github.com/DjeAbdel0/abdel-yavuz-app-festival-art</a>
+          </div>
           <p class="text-lg-start col-lg-3 text-center order-sm-2 order-lg-3">
             Yavuz Selim Gucluer
           </p>
@@ -650,6 +656,7 @@
           </p>
         </div>
       </div>
+      
     </footer>
   </body>
 </html>
