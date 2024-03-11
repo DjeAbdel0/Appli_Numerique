@@ -151,7 +151,28 @@ color: var(--bg-light);
   opacity: 1;
 }
 
-::placeholder{
-  color: red;
-  opacity: 1;
+
+
+/*----- Swiper -----*/
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  
+}
+
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
 }
