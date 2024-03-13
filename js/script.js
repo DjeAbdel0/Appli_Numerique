@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
       direction: 'horizontal',
       loop: true,
-  
+      
+      watchSlidesProgress: true,
+      slidesPerView: 2,
     
       // Navigation arrows
       navigation: {
