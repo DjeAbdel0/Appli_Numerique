@@ -2,7 +2,7 @@
 :root {
   --bg-dark: #1f1f1f;
   --bg-info: #292929;
-  --bg-sucess: #141414;
+  --bg-sucess: #5090b4;
   --bg-primary: #2667ff;
   --bg-secondary: #1e00ff;
   --bg-light: #ffffff;
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-brand img {
-  max-height: 25px;
+  max-height: 5vh;
 }
 
 .btn {
@@ -42,7 +42,7 @@ body {
 }
 
 .btn:hover {
-  background-color: var(--bs-secondary);
+  background-color: var(--bg-sucess);
 }
 
 .logo-burger img {
@@ -59,7 +59,7 @@ footer {
 }
 
 .container {
-  margin: 6vh auto;
+  margin: 7vh auto;
 }
 
 .card {
@@ -158,11 +158,17 @@ iframe {
 }
 
 .form-control {
-  background-color: var(--bg-info);
   color: var(--bg-light);
   opacity: 1;
 }
 
+.btn-prim{
+  background-color: var(--bg-primary);
+}
+
+.btn-sec{
+  background-color: var(--bg-secondary);
+}
 /*----- Swiper -----*/
 
 swiper-container {
