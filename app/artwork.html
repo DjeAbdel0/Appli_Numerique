@@ -29,19 +29,15 @@
     />
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!--Css perso-->
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/styles-app.css" />
-    <!--Js perso-->
-    <script src="../js/script.js"></script>
+    
   </head>
   <body class="body-artwork">
     <!--header-->
     <header>
       <nav class="navbar navbar-dark bg-transparent navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a href="index.html"><i class="bi bi-chevron-left"></i></a>
-            <i class="bi bi-heart-fill"></i>
+            <a href="index.html"><i class="bi bi-chevron-left mt-2"></i></a>
+            <i class="bi bi-heart-fill unlike me-1 mt-2"></i>
         </div>
       </nav>
     </header>
@@ -49,7 +45,7 @@
     <main>
       <img src="../assets/artworks/img-artwork.webp" class="img-artwork">
       <section class="artwork">
-        <h1 class="pt-2 ms-2">Futur numérique</h1>
+        <h1 class="pt-3 ms-2">Futur numérique</h1>
         <span class="mx-2 me-3">
           <i class="bi bi-geo-alt"></i>
           <p class="location d-inline">Salle Microsoft</p>
@@ -59,19 +55,19 @@
           <p class="date d-inline">8 avril 2024</p>
         </span>
         <!--artiste-->
-        <h2 class="mx-2 mt-3 p-2 bg-success card-title">Artiste.s</h2>
+        <h2 class="mx-2 mt-3 p-2 titre-artiste card-title">Artiste.s</h2>
       <div id="artiste" class="card card-autres mb-3 mt-2 mx-2">
         <img src="../assets/artists/ravy-por.avif" class="card-img-top card-img-autres">
         <div class="card-body">
           <h4 class="card-title">Ravy Por</h4>
           <p class="card-text">Ravy Por est associée et leader en intelligence artificielle et en données chez Deloitte.</p>
-          <button type="button" class="btn">En savoir plus</button>
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalArtiste">En savoir plus</button>
         </div>
       </div>
       <!--a propos-->
-      <h2 class="mx-2 mt-3 p-2 bg-success card-title">À propos de l'oeuvre</h2>
-      <div class="ms-2 mb-2">
-        <p class="mb-1 card-text">Conférence</p>
+      <h2 class="mx-2 mt-3 p-2 titre-propos card-title">À propos de l'oeuvre</h2>
+      <div class="ms-3">
+        <p class="mb-1 mt-2 card-text">Conférence</p>
         <p class="mb-1 card-text">Lieu : Salle Microsoft</p>
       </div>
       <!--accordeon-->
@@ -101,6 +97,18 @@
         </div>
       </div>
       </section>
+      <div class="modal fade" tabindex="-1" id="modalArtiste">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="h4 modal-title">Ravy Por</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <p class="p-3 text-modal">Ravy Por est associée et leader en intelligence artificielle et en données chez Deloitte. Ayant 17 années d'expérience, elle poursuit ses efforts auprès de divers secteurs via des projets structurants notamment en consommation, en services financiers, en technologies, médias et télécommunications. Ravy propulse les entreprises locales et internationales à l’atteinte de leurs objectifs d’affaires, en optimisant la science de données puis les technologies infonuagiques dont l’automatisation intelligente, l'architecture de données, l’ingénierie de données et l’IA incluant l’IA générative. </p>
+
+          </div>
+        </div>
+      </div>
     </main>
     <!--footer-->
     <footer>
@@ -118,4 +126,9 @@
       </div>
     </footer>
   </body>
+  <!--Css perso-->
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/styles-app.css" />
+  <!--Js perso-->
+  <script src="../js/script.js"></script>
 </html>
