@@ -1,7 +1,7 @@
 /*---------LP---------*/
 
 document.addEventListener('DOMContentLoaded', function () {
-  let swiper = new Swiper('.swiper-screenshots', {
+  let swiperScreenshots = new Swiper('.swiper-screenshots', {
     direction: 'horizontal',
     loop: true,
     watchSlidesProgress: true,
@@ -12,12 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
       prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-     
+      400: {
+        slidesPerView: 3,
+      },
       1200: {
-        slidesPerView: 3, 
+        slidesPerView: 1, 
       },
     },
   });
+
 });
 
 /*---------App---------*/
