@@ -171,8 +171,9 @@ footer {
 }
 
 .logo-tim{
-    height: 45px;
-    width: 190px;
+    height: 40px;
+    width: 160px;
+    filter: hue-rotate(180deg) saturate(0) contrast(200%);
 }
 
 .footer-desc {
