@@ -103,6 +103,9 @@ a {
 .card-img {
     height: 20vh;
     object-fit: cover;
+    object-position: center;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .img-artiste {
